@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Головна</title>
+  <meta name="description" content="Сайт-візитка веб-розробника">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="header">
+      <a href="index.html" class="logo" aria-label="На головну"><img src="img/logo.jpg" alt="Логотип"></a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Відкрити меню">
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span><span></span><span></span></label>
+
+      <nav class="nav" aria-label="Головне меню">
+        <ul class="menu">
+<li class="has-sub">
+<a href="index.html" aria-current="page">ГОЛОВНА</a>
+<ul class="submenu">
+<li>
+<a href="index.html#skills">Навички</a>
+</li>
+<li>
+<a href="index.html#gallery">Фото</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="about.html">ПРО МЕНЕ</a>
+<ul class="submenu">
+<li class="has-sub">
+<a href="about.html#education">Освіта</a>
+<ul class="submenu">
+<li>
+<a href="about.html#school">Школа</a>
+</li>
+<li>
+<a href="about.html#university">Університет</a>
+</li>
+<li>
+<a href="about.html#courses">Курси</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="about.html#experience">Досвід</a>
+<ul class="submenu">
+<li>
+<a href="about.html#work">Робота</a>
+</li>
+<li>
+<a href="about.html#projects">Проєкти</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="about.html#hobby">Хобі</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="portfolio.html">ПОРТФОЛІО</a>
+<ul class="submenu">
+<li class="has-sub">
+<a href="portfolio.html#web">Веб-розробка</a>
+<ul class="submenu">
+<li>
+<a href="portfolio.html#landings">Лендінги</a>
+</li>
+<li>
+<a href="portfolio.html#shops">Інтернет-магазини</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="portfolio.html#design">Дизайн</a>
+<ul class="submenu">
+<li>
+<a href="portfolio.html#logos">Логотипи</a>
+</li>
+<li>
+<a href="portfolio.html#figma">Макети Figma</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="contacts.html">КОНТАКТИ</a>
+<ul class="submenu">
+<li>
+<a href="contacts.html#form">Написати мені</a>
+</li>
+<li>
+<a href="contacts.html#social">Соцмережі</a>
+</li>
+</ul>
+</li>
+</ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- Головний -->
+      <section class="hero" id="home">
+        <div class="hero__text">
+          <h1 class="hero__title">Привіт, я <span class="accent-gradient">Євген</span><br>game-developer</h1>
+          <span class="tag">м. Кривий Ріг</span>
+          <ul class="hero__points">
+            <li>Люблю створювати механіки</li>
+            <li>Розробляю архітектуру</li>
+            <li>Увага до деталей</li>
+          </ul>
+          <a href="contacts.html" class="btn btn--gradient btn--wide">Зв'язатися зі мною</a>
+        </div>
+        <img class="hero__photo" src="img/avatar.jpg" alt="Моє фото" width="600" height="400">
+      </section>
+
+      <!-- Навички -->
+      <section class="section" id="skills">
+        <h2 class="section__title">Мої навички</h2>
+        <p class="section__subtitle">Моя професійна майстерність</p>
+        <ul class="skills">
+          <li class="skill">
+            <div class="skill__head"><span>HTML</span><span>40%</span></div>
+            <div class="skill__bar" role="img" aria-label="HTML: 40%"><span style="--level: 40%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill__head"><span>CSS</span><span>30%</span></div>
+            <div class="skill__bar" role="img" aria-label="CSS: 30%"><span style="--level: 30%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill__head"><span>Figma</span><span>35%</span></div>
+            <div class="skill__bar" role="img" aria-label="Figma: 35%"><span style="--level: 35%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill__head"><span>С#</span><span>80%</span></div>
+            <div class="skill__bar" role="img" aria-label="C#: 80%"><span style="--level: 80%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill__head"><span>Git</span><span>70%</span></div>
+            <div class="skill__bar" role="img" aria-label="Git: 70%"><span style="--level: 70%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill__head"><span>C++</span><span>70%</span></div>
+            <div class="skill__bar" role="img" aria-label="C++: 70%"><span style="--level: 70%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill__head"><span>Unity</span><span>85%</span></div>
+            <div class="skill__bar" role="img" aria-label="Unity: 85%"><span style="--level: 85%"></span></div>
+          </li>
+          <li class="skill">
+            <div class="skill__head"><span>Англійська мова</span><span>50%</span></div>
+            <div class="skill__bar" role="img" aria-label="Англійська мова: 50%"><span style="--level: 50%"></span></div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="gallery">
+        <h2 class="section__title">Фото</h2>
+        <p class="section__subtitle">Кілька кадрів з моїх проєктів</p>
+        <div class="gallery">
+          <figure class="gallery__item1"><img src="img/photo1.jpg" alt="Фото 1" width="1600" height="1200" loading="lazy"></figure>
+          <figure class="gallery__item1"><img src="img/photo2.jpg" alt="Фото 2" width="800" height="600" loading="lazy"></figure>
+          <figure class="gallery__item2"><img src="img/photo3.jpg" alt="Фото 3" width="400" height="300" loading="lazy"></figure>
+          <figure class="gallery__item2"><img src="img/photo4.jpg" alt="Фото 4" width="800" height="600" loading="lazy"></figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="logo logo--small"><img src="img/logo.jpg" alt="Логотип"></a>
+          <p>Сайт-візитка · м. Кривий Ріг</p>
+        </div>
+
+        <nav class="footer__nav" aria-label="Меню у футері">
+          <h2 class="footer__title">Меню</h2>
+          <ul>
+            <li><a href="index.html">ГОЛОВНА</a></li>
+<li><a href="about.html">ПРО МЕНЕ</a></li>
+<li><a href="portfolio.html">ПОРТФОЛІО</a></li>
+<li><a href="contacts.html">КОНТАКТИ</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__social">
+          <h2 class="footer__title">Соцмережі</h2>
+          <ul class="socials">
+            <li><a class="social" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a></li>
+            <li><a class="social" href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg></a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Євген</p>
+    </footer>
+
+  </div>
+</body>
+</html>

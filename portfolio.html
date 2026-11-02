@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Портфоліо</title>
+  <meta name="description" content="Мої роботи та проєкти">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="header">
+      <a href="index.html" class="logo" aria-label="На головну"><img src="img/logo.jpg" alt="Логотип"></a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Відкрити меню">
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span><span></span><span></span></label>
+
+      <nav class="nav" aria-label="Головне меню">
+        <ul class="menu">
+<li class="has-sub">
+<a href="index.html">ГОЛОВНА</a>
+<ul class="submenu">
+<li>
+<a href="index.html#skills">Навички</a>
+</li>
+<li>
+<a href="index.html#gallery">Фото</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="about.html">ПРО МЕНЕ</a>
+<ul class="submenu">
+<li class="has-sub">
+<a href="about.html#education">Освіта</a>
+<ul class="submenu">
+<li>
+<a href="about.html#school">Школа</a>
+</li>
+<li>
+<a href="about.html#university">Університет</a>
+</li>
+<li>
+<a href="about.html#courses">Курси</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="about.html#experience">Досвід</a>
+<ul class="submenu">
+<li>
+<a href="about.html#work">Робота</a>
+</li>
+<li>
+<a href="about.html#projects">Проєкти</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="about.html#hobby">Хобі</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="portfolio.html" aria-current="page">ПОРТФОЛІО</a>
+<ul class="submenu">
+<li class="has-sub">
+<a href="portfolio.html#web">Веб-розробка</a>
+<ul class="submenu">
+<li>
+<a href="portfolio.html#landings">Лендінги</a>
+</li>
+<li>
+<a href="portfolio.html#shops">Інтернет-магазини</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="portfolio.html#design">Дизайн</a>
+<ul class="submenu">
+<li>
+<a href="portfolio.html#logos">Логотипи</a>
+</li>
+<li>
+<a href="portfolio.html#figma">Макети Figma</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="contacts.html">КОНТАКТИ</a>
+<ul class="submenu">
+<li>
+<a href="contacts.html#form">Написати мені</a>
+</li>
+<li>
+<a href="contacts.html#social">Соцмережі</a>
+</li>
+</ul>
+</li>
+</ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <section class="section section--first">
+        <h1 class="section__title">Портфоліо</h1>
+        <p class="section__subtitle">Мої роботи</p>
+      </section>
+
+      <section class="section" id="game">
+        <h2 class="section__title section__title--md">Розробка</h2>
+
+        <div class="group" id="game1">
+          <h3 class="group__title">Ігра 1</h3>
+          <div class="projects">
+            <article class="project project--wide">
+              <div class="project__images">
+                <img src="img/photo1.jpg" alt="Гра 1, скриншот 1" width="800" height="500" loading="lazy">
+                <img src="img/photo2.jpg" alt="Гра 1, скриншот 2" width="800" height="500" loading="lazy">
+              </div>
+              <div class="project__body">
+                <h4 class="project__title">TestGame</h4>
+                <p>Невеликий проект з працюючою фізикою та переміщенням ігрока</p>
+                <a class="project__link" href="#">Дивитися проєкт →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="group" id="game2">
+          <h3 class="group__title">Ігра 2</h3>
+          <div class="projects">
+            <article class="project project--wide">
+              <div class="project__images project__images--portrait">
+                <img src="img/photo3.jpg" alt="Гра 2, скриншот 1" width="300" height="500" loading="lazy">
+                <img src="img/photo4.jpg" alt="Гра 2, скриншот 2" width="300" height="500" loading="lazy">
+              </div>
+              </div>
+              <div class="project__body">
+                <h4 class="project__title">Spy</h4>
+                <p>Класична гра в шпіона для друзів</p>
+                <a class="project__link" href="#">Дивитися проєкт →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="design">
+        <h2 class="section__title section__title--md">Дизайн</h2>
+        <div class="group" id="figma">
+          <h3 class="group__title">Роботи Figma</h3>
+          <div class="projects">
+          <article class="project">
+            <img src="img/figma.jpg" alt="Event-компанія" width="800" height="500" loading="lazy">
+            <div class="project__body">
+              <h4 class="project__title">Event-компанія</h4>
+              <p>Макет сайту фірми яка займається організацією свят</p>
+              <a class="project__link" href="https://www.figma.com/design/b0U4DG4FghEWSyIit7FfZx/%D0%B5%D0%B2%D0%B5%D0%BD%D1%82-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%8F?node-id=0-1&t=SpnbYE5Tn5GwaBym-1" target="_blank" rel="noopener noreferrer">Дивитися проєкт →</a>
+            </div>
+          </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="logo logo--small"><img src="img/logo.jpg" alt="Логотип"></a>
+          <p>Сайт-візитка · м. Кривий Ріг</p>
+        </div>
+
+        <nav class="footer__nav" aria-label="Меню у футері">
+          <h2 class="footer__title">Меню</h2>
+          <ul>
+            <li><a href="index.html">ГОЛОВНА</a></li>
+            <li><a href="about.html">ПРО МЕНЕ</a></li>
+            <li><a href="portfolio.html">ПОРТФОЛІО</a></li>
+            <li><a href="contacts.html">КОНТАКТИ</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__social">
+          <h2 class="footer__title">Соцмережі</h2>
+          <ul class="socials">
+            <li><a class="social" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a></li>
+            <li><a class="social" href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg></a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copy">© 2026 Євген</p>
+    </footer>
+
+  </div>
+</body>
+</html>
